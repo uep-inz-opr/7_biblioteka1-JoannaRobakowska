@@ -1,7 +1,7 @@
 class Ksiazka:
     def __init__(self, tytul, autor, rok):
             self.tytul = str(tytul)
-            self.aut or = str(autor)
+            self.autor = str(autor)
             self.rok = int(rok)
 
     ilosc_ksiazek=int(input())
