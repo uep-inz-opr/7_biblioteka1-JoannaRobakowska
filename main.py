@@ -1,12 +1,12 @@
 class Ksiazka:
     def __init__(self, tytul, autor, rok):
-            self.tytul = str(tytul)
-            self.autor = str(autor)
-            self.rok = int(rok)
+        self.tytul = str(tytul)
+        self.autor = str(autor)
+        self.rok = int(rok)
 
-    ilosc_ksiazek=int(input())
-    lista_ksiazek=[]
-    lista_egzemplarzy=[]
+ilosc_ksiazek=int(input())
+lista_ksiazek=[]
+lista_egzemplarzy=[]
 
 for i in range(ilosc_ksiazek):
     info_ksiazka = eval(input())
